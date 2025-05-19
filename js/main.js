@@ -1,9 +1,12 @@
 // Main JavaScript functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Loader 
-    setTimeout(() => {
-        document.querySelector('.loader').style.display = 'none';
-    }, 3500);
+    const loader = document.querySelector('.loader');
+    if (loader) {
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 500);
+    }
     
     // Mobile Navigation Toggle
     const menuToggle = document.querySelector('.menu-toggle');
