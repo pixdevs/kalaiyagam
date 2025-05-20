@@ -370,6 +370,11 @@ blockquote::after {
     .sustainability-image {
         order: 2;
     }
+
+    .leadership-slider {
+        min-height: 300px;
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -390,6 +395,11 @@ blockquote::after {
     .leadership-quote {
         font-size: 2rem;
     }
+
+    .leadership-slider {
+        min-height: 400px;
+        padding-bottom: 200px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -404,5 +414,10 @@ blockquote::after {
 
     .member-info h3 {
         font-size: 2rem;
+    }
+
+    .leadership-slider {
+        min-height: 500px;
+        padding-bottom: 300px;
     }
 }
