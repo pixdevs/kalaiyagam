@@ -137,6 +137,13 @@ blockquote::after {
     margin-top: var(--spacing-xl);
 }
 
+.team2-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
 .team-member {
     display: flex;
     flex-direction: column;
@@ -289,7 +296,7 @@ blockquote::after {
 /* Sustainability Section */
 .sustainability-section {
     padding: var(--spacing-xl) 0;
-    background-color: white;
+    background-color: var(--background-light);
 }
 
 .sustainability-content {
@@ -358,6 +365,12 @@ blockquote::after {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .team2-grid {
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: var(--spacing-lg);
+        padding-right: var(--spacing-lg);
+    }
+
     .sustainability-content {
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
@@ -392,6 +405,13 @@ blockquote::after {
         gap: var(--spacing-xl);
     }
 
+    .team2-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-xl);
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
+    }
+
     .leadership-quote {
         font-size: 2rem;
     }
@@ -419,5 +439,11 @@ blockquote::after {
     .leadership-slider {
         min-height: 500px;
         padding-bottom: 300px;
+    }
+
+    .team2-grid {
+        grid-template-columns: 1fr;
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
     }
 }
